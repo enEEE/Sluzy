@@ -1,0 +1,399 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+ font-family: 'Changa', sans-serif;
+ overflow-x: hidden;
+ margin: 0
+ padding: 0;
+ width: 100%;
+ height: 100%;
+}
+
+h3 {
+    font-family: 'Lalezar', cursive;
+
+}
+
+
+h1 {
+ color: #ffe4e4;
+ font-family: 'Lemonada', cursive;
+ font-size: 1rem;
+ line-height: 1.5rem;
+ padding-bottom: 30px;
+}
+
+/* Navigation bar */
+
+.navbar {
+  font-family: 'Changa', sans-serif;
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+
+}
+
+.nav-item {
+ text-align: right;
+}
+
+/* Title Section */
+
+iframe {
+  display: none;
+}
+
+
+#title {
+  background-color: #00ab66;
+  text-align: center;
+}
+
+
+/* Products Section */
+
+#products {
+  background-color: #ffe4e4;
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+
+.h2-products {
+  color: #00ab66;
+  font-family: 'Lemonada', cursive;
+  font-size: 2.5rem;
+  line-height: 1.5rem;
+   padding-bottom: 4%;
+}
+
+@media (max-width: 700px) {
+  .h2-products {
+    padding-bottom: 20px;
+    padding-top: 30px;
+    line-height: 1.5;
+
+  }
+}
+
+
+
+.naseeb {
+  color: #ffe4e4;
+  font-family: 'Lemonada', cursive;
+  font-size: 1.5em;
+  line-height: 1.5;
+  padding-bottom: 0;
+}
+
+.kasab {
+  width: 35rem;
+  height: 35em;
+  margin-right: 70px;
+}
+
+.products {
+  text-align: center;
+  padding: 5%;
+  transition: padding 0.5s;
+}
+
+.small-img {
+  height: 150px;
+  width: 150px;
+  margin-top: 1rem;
+}
+
+.products:hover {
+
+  padding: 10px;
+}
+
+/* Testimonials Section */
+ #testimonials {
+
+   text-align: center;
+   background-color: #00ab66;
+   color: #ffe4e4;
+   padding-bottom: 50px;
+
+ }
+
+.carousel-item {
+  padding: 7% 15% 4% 15%;
+
+}
+
+
+ .h2-testimonials {
+  font-family: 'Changa', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding-bottom: 40px;
+ }
+
+ .testimonials-img {
+   width: 17%;
+   margin: 0% 70px;
+   border-radius: 100%;
+   position: relative;
+   right: 50px;
+ }
+
+/* Press Section */
+
+ #press {
+   background-color: #00ab66;
+   text-align: center;
+   padding-bottom: 3%;
+ }
+
+ .press-img {
+   width: 15%;
+   margin: 0px 30px 50px;
+ }
+
+/* Pricing Section */
+
+ #pricing {
+   padding: 7% 7%;
+   text-align: center;
+  background-color: #ffe4e4;
+ }
+
+ .pricing-col {
+   padding: 3% 2%;
+
+ }
+
+ .h2-pricingg {
+   color: #00ab66;
+   font-family: 'Lemonada', cursive;
+   font-size: 2.5rem;
+   line-height: 1.5rem;
+   padding-bottom: 40px;
+
+
+ }
+
+ .para {
+  font-size: 1.2rem;
+  color: grey;
+ }
+
+
+ .h2-pricing {
+   font-weight: bold;
+   padding-bottom: 20px;
+   font-family: 'Changa', sans-serif;
+   font-size: 1.7rem;
+ }
+
+ @media (max-width: 700px) {
+   .h2-pricingg {
+     padding-bottom: 20px;
+     line-height: 1.5;
+     padding-top: 30px;
+
+   }
+ }
+
+ .h3-pricing {
+   font-size: 2.7rem;
+ }
+
+  .p-pricing {
+   color: grey;
+ }
+
+
+
+ @media (max-width: 1028px) {
+   #title {
+     text-align: center;
+   }
+ }
+
+
+
+/* Contact us */
+
+
+
+#contact {
+  background-color: #00ab66;
+  padding: 7% 15%;
+}
+
+.contact {
+    text-align: right;
+}
+
+.h2-contact {
+  color: #ffe4e4;
+  font-family: 'Lemonada', cursive;
+  font-size: 2.5rem;
+  line-height: 1.5rem;
+   padding-bottom: 4%;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .h2-contact {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    line-height: 1.5;
+
+  }
+}
+
+.contact-me {
+  font-weight: bold;
+  font-family: 'Changa', sans-serif;
+  font-size: 1.7rem;
+
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+ ::placeholder {
+  direction: rtl;
+}
+
+/* Add a background color and some padding around the form */
+
+.contact-btn {
+  text-align: center;
+  margin-top: 30px;
+  direction: ltr;
+}
+
+.container-contact100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.contact100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 150px;
+  height: 62px;
+  background-color: transparent;
+  border-radius: 31px;
+border: none;
+  font-family: Ubuntu-Bold;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  position: relative;
+  z-index: 1;
+}
+
+.contact100-form-btn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-radius: 31px;
+  border: none;
+  background-color: #343a40;
+  pointer-events: none;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.contact100-form-btn:hover:before {
+  background-color: #181818;
+  width: calc(100% + 20px);
+}
+
+.good {
+  font-family: 'Changa', sans-serif;
+  color: #ffe4e4;
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+/* Footer */
+
+#footer {
+  background-color: #ffe4e4;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#footer p {
+  color: grey;
+}
+
+.fab {
+  margin: 20px 10px;
+}
+
+
+p {
+    font-family: 'Changa', sans-serif;
+}
