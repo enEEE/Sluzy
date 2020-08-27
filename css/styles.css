@@ -47,8 +47,16 @@ h1 {
 
 /* Title Section */
 
-iframe {
-  display: none;
+audio {
+  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+width: 200px;
+height: 25px;
+margin-top: 40px;
+
+}
+
+.align-self-center {
+
 }
 
 
@@ -76,7 +84,7 @@ iframe {
    padding-bottom: 4%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .h2-products {
     padding-bottom: 20px;
     padding-top: 30px;
@@ -99,7 +107,29 @@ iframe {
   width: 35rem;
   height: 35em;
   margin-right: 70px;
+
 }
+
+
+@media (max-width: 1265px) and (min-width: 770px) {
+  .kasab {
+    position: relative;
+    right: 50%;
+  }
+}
+
+@media (max-width: 1265px) and (min-width: 770px) {
+  .fart {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 1265px) and (min-width: 770px) {
+  #title {
+text-align: center;
+ }
+}
+
 
 .products {
   text-align: center;
@@ -199,7 +229,7 @@ iframe {
    font-size: 1.7rem;
  }
 
- @media (max-width: 700px) {
+ @media (max-width: 600px) {
    .h2-pricingg {
      padding-bottom: 20px;
      line-height: 1.5;
@@ -248,7 +278,7 @@ iframe {
   text-align: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .h2-contact {
     padding-bottom: 40px;
     padding-top: 40px;
